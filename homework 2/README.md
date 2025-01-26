@@ -39,6 +39,6 @@ If I had relied solely on the output from Copilot, I think the results would hav
 
 ## Conclusion
 
-Overall, I found the process of comparing my work with AI-generated suggestions valuable. Copilot provided excellent starting points, and by integratinf my ideas, I created a project that felt uniquely mine. Generative AI is a helpful tool, but it's essential to engage with the code, understand it, and make it your own to grow as a developer.
+Overall, I found the process of comparing my work with AI-generated suggestions valuable. Copilot provided excellent starting points, and by integrating my ideas, I created a project that felt uniquely mine. Generative AI is a helpful tool, but it's essential to engage with the code, understand it, and make it your own to grow as a developer.
 
 
