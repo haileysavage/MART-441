@@ -3,7 +3,7 @@
 ## What I Created
 
 For this assignment, I created a simple web page using HTML, CSS and JavaScript. The web page features:
-- A light blue background color set using a style element within the <head> of the document
+- A light blue background color set using a style element within the head of the document
 - A welcoming title and an image displayed on the page
 - A console logs for:
     - Three favorite websites
@@ -37,7 +37,7 @@ If I had relied solely on the output from Copilot, I think the results would hav
 3. **Learning and Creativity**:
     - Using AI for guidance fosters learning, especially when comparing its suggestions with my own ideas. However, relying too heavily on AI could limit my creativity and problem-solving abilities in the long run.
 
-## Conclusiom
+## Conclusion
 
 Overall, I found the process of comparing my work with AI-generated suggestions valuable. Copilot provided excellent starting points, and by integratinf my ideas, I created a project that felt uniquely mine. Generative AI is a helpful tool, but it's essential to engage with the code, understand it, and make it your own to grow as a developer.
 
