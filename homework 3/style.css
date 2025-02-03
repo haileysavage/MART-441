@@ -1,0 +1,50 @@
+body {
+    font-family: "Georgia", serif;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #f39c12;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+#restart-btn {
+    display: none;
+    background-color: #2ecc71;
+}
+

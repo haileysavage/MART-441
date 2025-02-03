@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Forest Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lost in the Enchanted Forest</h1>
+        <img id="scene-image" src="images/forest.jpg" alt="Mysterious forest">
+        <p id="story-text">You wake up in a dark enchanted forest. Paths stretch in different directions. Which way do you go?</p>
+        
+        <div id="choices">
+            <button onclick="choosePath('left')">Take the Left Path</button>
+            <button onclick="choosePath('right')">Take the Right Path</button>
+            <button onclick="choosePath('forward')">Go Straight Ahead</button>
+        </div>
+
+        <button id="restart-btn" onclick="restartGame()" style="display: none;">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
