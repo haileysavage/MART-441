@@ -32,8 +32,16 @@ Both versions implement an interactive story with user input and decision-making
 - The UI is divided into separate sections (e.g., story, options, result), and it uses CSS to toggle visibility of these sections.
 
 ## Key Differences
-### 1. **Branching:** My code has a deeper branching structure, allowing for a more complex and interactive experience with multiple decision points, whereas the CoPilot code offers a more linear experience.
+1. **Branching:** My code has a deeper branching structure, allowing for a more complex and interactive experience with multiple decision points, whereas the CoPilot code offers a more linear experience.
 
-### 2. **UI Interaction:** My code allows dynamic updates to both text and visual elements (backgrounds and images), while CoPilot’s code uses CSS to toggle visibility between different parts of the story.
+2. **UI Interaction:** My code allows dynamic updates to both text and visual elements (backgrounds and images), while CoPilot’s code uses CSS to toggle visibility between different parts of the story.
 
-### 3. **Complexity:** My code is more complex and provides more depth in the story, while CoPilot’s code is simpler and easier to implement for smaller interactive stories.
+3. **Complexity:** My code is more complex and provides more depth in the story, while CoPilot’s code is simpler and easier to implement for smaller interactive stories.
+
+## Summary
+**My Code**
+Provides a richer, more interactive experience, with dynamic updates to both content and visuals based on user decisions, and a more complex branching narrative.
+
+**CoPilot's Code**
+Offers a simpler implementation with basic decision points, clean UI management through CSS, and less complexity in branching.
+
