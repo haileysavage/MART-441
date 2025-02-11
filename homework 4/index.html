@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission: Cosmic Decision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mission: Cosmic Decision</h1>
+    <p id="story">You are the commander of the **SS Starfire**, traveling through deep space when your ship’s AI, NOVA, alerts you of an anomaly ahead. What do you do? Type 'investigate' to investigate or 'change course' to avoid it.</p>
+    
+    <img id="storyImage" src="images/default_space.jpg" alt="Space Background">
+
+    <input type="text" id="choiceInput" placeholder="Type your choice...">
+    <button onclick="makeChoice()">Submit</button>
+    
+    <div id="result"></div>
+    
+    <button id="restartButton" onclick="restartGame()" style="display: none;">Restart Mission</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
