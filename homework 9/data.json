@@ -1,0 +1,88 @@
+[
+    {
+        "category": "other-theft", 
+        "persistent_id": "bb06e351c7056b9d74fcf5d519cc45e0318f72e1a39bdf45f9551a2743396d58", 
+        "location_subtype": "", 
+        "id": 116206187, 
+        "location": {
+            "latitude": "52.629831", 
+            "street": {
+                "id": 1738423, 
+                "name": "On or near Marquis Street"
+            }, 
+            "longitude": "-1.132503"
+        }, 
+        "context": "", 
+        "month": "2024-01", 
+        "location_type": "Force", 
+        "outcome_status": {
+            "category": "Unable to prosecute suspect", 
+            "date": "2024-02"
+        }
+    }, 
+    {
+        "category": "violent-crime", 
+        "persistent_id": "4f8e06f87cb05c4a19f690aa1531cd94a4736fd7f5ad99328c00a3cde3d68c85", 
+        "location_subtype": "", 
+        "id": 116206306, 
+        "location": {
+            "latitude": "52.629831", 
+            "street": {
+                "id": 1738423, 
+                "name": "On or near Marquis Street"
+            }, 
+            "longitude": "-1.132503"
+        }, 
+        "context": "", 
+        "month": "2024-01", 
+        "location_type": "Force", 
+        "outcome_status": {
+            "category": "Unable to prosecute suspect", 
+            "date": "2024-02"
+        }
+    },
+    {
+        "category": "vehicle-crime",
+        "persistent_id": "ae0ec83e0dcc44e3bc0e5c333f24f239",
+        "location_subtype": "",
+        "id": 539799876,
+        "location": {
+          "latitude": "51.507351",
+          "street": {
+            "id": 6667268,
+            "name": "On or near King Street"
+          },
+          "longitude": "-0.135289"
+        },
+        "context": "",
+        "month": "2024-02",
+        "location_type": "Force",
+        "outcome_status": {
+          "category": "Unable to prosecute suspect",
+          "date": "2024-02"
+        }
+      },
+      {
+        "category": "vehicle-crime",
+        "persistent_id": "7e03db38c1ca4053a81284099433cef9",
+        "location_subtype": "",
+        "id": 165574922,
+        "location": {
+          "latitude": "51.507351",
+          "street": {
+            "id": 8394171,
+            "name": "On or near King Street"
+          },
+          "longitude": "-0.127758"
+        },
+        "context": "",
+        "month": "2024-07",
+        "location_type": "Force",
+        "outcome_status": {
+          "category": "Unable to prosecute suspect",
+          "date": "2024-11"
+        }
+      }
+      
+      
+]
