@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "type": "collectible",
+      "x": 300,
+      "y": 200,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": 2,
+      "type": "collectible",
+      "x": 500,
+      "y": 100,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": 3,
+      "type": "collectible",
+      "x": 700,
+      "y": 300,
+      "width": 30,
+      "height": 30
+    }
+  ]
+  
