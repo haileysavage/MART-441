@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    background: #202020;
+    color: white;
+    text-align: center;
+  }
+  canvas {
+    display: block;
+  }
+  
