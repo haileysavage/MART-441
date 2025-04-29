@@ -1,0 +1,117 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f9c8d2, #f3f4f6);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #4caf50;
+    margin-top: 50px;
+    font-weight: 600;
+  }
+  
+  /* Plant container and Plant Styling */
+  #plant-container {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #e8f5e9;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  #plant {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    transform-origin: bottom center;
+    transition: all 1s ease-in-out;
+  }
+  
+  #controls {
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #81c784;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #66bb6a;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  #stats {
+    margin-top: 20px;
+  }
+  
+  #care-progress {
+    margin-top: 20px;
+    width: 80%; /* Ensures it doesn’t take up the whole screen */
+    margin: 0 auto;
+  }
+  
+  .progress-bar {
+    background-color: #f0f4c3;
+    width: 100%;
+    height: 12px; /* Smaller height for more compact layout */
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar-inner {
+    height: 100%;
+    width: 0%;
+    background-color: #81c784;
+    border-radius: 15px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  #resetBtn {
+    margin-top: 20px;
+    background-color: #e57373;
+  }
+  
+  #resetBtn:hover {
+    background-color: #f44336;
+  }
+  
+  /* Plant animations */
+  @keyframes plantGrowth {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  #plant.grow {
+    animation: plantGrowth 0.5s ease-in-out;
+  }
+  

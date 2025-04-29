@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Pal – Virtual Plant Growth Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Plant Pal</h1>
+    <div id="plant-container">
+      <div id="plant"></div>
+    </div>
+    <div id="controls">
+      <button id="waterBtn">Water the Plant</button>
+      <button id="sunlightBtn">Give Sunlight</button>
+      <button id="fertilizerBtn">Add Fertilizer</button>
+    </div>
+    <div id="stats">
+      <p>Health: <span id="health">100</span></p>
+      <p>Growth Stage: <span id="growthStage">Seedling</span></p>
+      <p>Last Care: <span id="lastCare">N/A</span></p>
+    </div>
+
+    <div id="care-progress">
+      <p>Water Progress: <span id="waterProgressLabel">0</span>%</p>
+      <div id="waterProgressBar" class="progress-bar">
+        <div id="waterBar" class="progress-bar-inner"></div>
+      </div>
+
+      <p>Sunlight Progress: <span id="sunlightProgressLabel">0</span>%</p>
+      <div id="sunlightProgressBar" class="progress-bar">
+        <div id="sunlightBar" class="progress-bar-inner"></div>
+      </div>
+
+      <p>Fertilizer Progress: <span id="fertilizerProgressLabel">0</span>%</p>
+      <div id="fertilizerProgressBar" class="progress-bar">
+        <div id="fertilizerBar" class="progress-bar-inner"></div>
+      </div>
+    </div>
+    
+    <button id="resetBtn">Reset Plant</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
