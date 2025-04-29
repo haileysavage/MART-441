@@ -52,7 +52,7 @@ Using `localStorage` required careful handling of string/number data types. I ad
 
 ## Reflection
 
-This project has been a fun and meaningful way to apply everything I’ve learned about web development. It helped me build confidence in using JavaScript for real-world interactions and showed me how important structure and modularity are for scaling features. I’m proud of the final result and excited to keep refining it!
+This project has been a fun and meaningful way to apply everything I’ve learned about web technologies. It helped me build confidence in using JavaScript for real-world interactions and showed me how important structure and modularity are for scaling features. I’m proud of the final result and excited to keep refining it!
 
 ---
 
