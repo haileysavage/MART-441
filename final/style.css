@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2e8b57;
+  }
+  
+  .plant-container {
+    margin: 20px auto;
+  }
+  
+  .stats {
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  .stat {
+    margin-bottom: 10px;
+  }
+  
+  .stat label {
+    display: inline-block;
+    width: 80px;
+  }
+  
+  .bar {
+    display: inline-block;
+    width: 60%;
+    height: 15px;
+    background-color: gray;
+    border-radius: 5px;
+    vertical-align: middle;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #dff0d8;
+    border: 1px solid #a1d99b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c8e6c9;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
